@@ -1,0 +1,164 @@
+﻿@model GPGiaitriviet.Models.Customer
+
+@using (Html.BeginForm("EditCustomers", "LogMo"))
+{
+    @Html.AntiForgeryToken() 
+    List<GPGiaitriviet.Models.AspNetUser> tele = (List<GPGiaitriviet.Models.AspNetUser>)TempData["tele"];
+
+<div class="form-horizontal">
+    <h4>Thông tin khách hàng</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.ID)
+
+    <div class="form-group">
+        @Html.Label("Số điện thoại", htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+            @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Họ tên", htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Ngày sinh", htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.Birthday, new { htmlAttributes = new { @class = "form-control", placeholder = "dd/MM/yyyy" } })
+            @Html.ValidationMessageFor(model => model.Birthday, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Giới tính", htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-8">
+            @Html.DropDownListFor(model => model.Sex, new List<SelectListItem> { new SelectListItem() { Text = "Nam", Value = "Nam" }, new SelectListItem() { Text = "Nữ", Value = "Nữ" }, new SelectListItem() { Text = "Khác", Value = "Khác" } }, "--Giới tính--", new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group hidden">
+        @Html.LabelFor(model => model.Createdate, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.Createdate, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Createdate, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Địa chỉ", htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group ">
+        @Html.Label("Cần liên hệ", htmlAttributes: new { @class = "control-label col-md-4" })
+        @*@Html.LabelFor(model => model.Calldate, htmlAttributes: new { @class = "control-label col-md-4" })*@
+        <div class="col-md-8">
+            @*@Html.EditorFor(model => model.Calldate, new { htmlAttributes = new { @class = "form-control", type = "date", @format = "dd-MM-yyyy" } })*@
+            @Html.TextBoxFor(model => model.Calldate, "{0:yyyy-MM-dd}", new { @type = "date", @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Calldate, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Ghi chú", htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-8">
+            @Html.TextAreaFor(model => model.Note, 5, 65, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Note, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Người phụ trách", htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-8">
+            @Html.DropDownListFor(model => model.Callby, new SelectList(tele, "UserName", "UserName"), "--Chưa chọn người phụ trách--", new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group hidden">
+        @Html.LabelFor(model => model.Editdate, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.Editdate, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Editdate, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group hidden">
+        @Html.LabelFor(model => model.HHTD, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.HHTD, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.HHTD, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group hidden">
+        @Html.LabelFor(model => model.KTCD, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.KTCD, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.KTCD, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group hidden">
+        @Html.LabelFor(model => model.SUPERMAN, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.SUPERMAN, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.SUPERMAN, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group hidden">
+        @Html.LabelFor(model => model.VVG, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.VVG, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.VVG, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group hidden">
+        @Html.LabelFor(model => model.StartHHTD, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.StartHHTD, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.StartHHTD, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group hidden">
+        @Html.LabelFor(model => model.StartKTCD, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.StartKTCD, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.StartKTCD, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group hidden">
+        @Html.LabelFor(model => model.StartSuperman, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.StartSuperman, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.StartSuperman, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group hidden">
+        @Html.LabelFor(model => model.StartVVG, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.StartVVG, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.StartVVG, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-4 col-md-8">
+            <button type="submit" class="btn btn-info"><i class="glyphicon glyphicon-ok"></i> Lưu</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i> Thoát</button>
+        </div>
+    </div>
+</div>
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

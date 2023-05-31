@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\02_GitHub\08_TDXT_GPVIET\PUBLISH</_PublishTargetUrl>
+    <History>True|2021-10-15T09:46:45.5532606Z;True|2021-10-07T15:53:01.3311257+07:00;True|2021-10-01T17:18:06.4583021+07:00;True|2021-09-24T15:25:19.8739762+07:00;True|2021-09-24T15:01:42.9042390+07:00;True|2021-09-24T14:59:14.7773507+07:00;True|2021-09-23T10:02:00.3264466+07:00;True|2021-09-16T16:15:40.4443560+07:00;True|2021-09-10T16:53:35.3945444+07:00;True|2021-09-10T16:52:00.1267588+07:00;True|2021-09-10T15:28:47.2205613+07:00;True|2021-09-10T15:24:35.0859053+07:00;True|2021-09-10T15:22:13.6658128+07:00;True|2021-09-08T15:07:04.7520329+07:00;True|2021-08-24T11:28:04.6802776+07:00;True|2021-08-11T12:25:58.1797606+07:00;True|2021-08-10T15:28:24.2853965+07:00;True|2021-08-10T14:38:59.7292747+07:00;True|2021-08-02T16:42:13.8077728+07:00;True|2021-08-02T11:20:50.1078805+07:00;True|2021-05-31T16:49:17.1712505+07:00;True|2021-05-31T16:30:04.2374149+07:00;True|2021-05-31T16:22:07.2405700+07:00;True|2021-05-31T10:57:38.3611602+07:00;True|2021-05-29T17:26:20.0984651+07:00;True|2021-05-29T17:24:38.7228057+07:00;True|2021-05-29T17:18:30.0239402+07:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Areas/Admin/Views/Account/ConfirmEmail.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Account/ExternalLoginConfirmation.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Account/ExternalLoginFailure.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Account/ForgotPassword.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Account/ForgotPasswordConfirmation.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Account/Login.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Account/Register.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Account/ResetPassword.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Account/ResetPasswordConfirmation.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Account/SendCode.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Account/VerifyCode.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Account/_ExternalLoginsListPartial.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/CodeGP/Delete.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/CodeGP/Edit.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/CodeGP/Index.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Customer/Index.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Gift/Index.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Gift/_Edit.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Home/About.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Home/Contact.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Home/Index.cshtml">
+      <publishTime>09/16/2021 16:02:54</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/LogMo/Index.cshtml">
+      <publishTime>10/07/2021 15:52:28</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/LogMo/_EditCustomer.cshtml">
+      <publishTime>09/23/2021 10:27:05</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Manage/AddPhoneNumber.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Manage/ChangePassword.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Manage/Index.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Manage/ManageLogins.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Manage/SetPassword.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Manage/VerifyPhoneNumber.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/Error.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/Lockout.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/_Layout.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/_LayoutAccount.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/_LoginPartial.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/User/Delete.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/User/Edit.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/User/Index.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/User/_Edit.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/User/_Register.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/web.config">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/_ViewStart.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/GPGiaitriviet.dll">
+      <publishTime>12/23/2021 15:25:25</publishTime>
+    </File>
+    <File Include="bin/GPGiaitriviet.pdb">
+      <publishTime>12/23/2021 15:25:25</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Cryptography.Internal.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Identity.Core.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Logging.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Options.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Primitives.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IO.RecyclableMemoryStream.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/NLog.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>09/08/2021 14:59:32</publishTime>
+    </File>
+    <File Include="bin/PagedList.dll">
+      <publishTime>09/08/2021 14:59:32</publishTime>
+    </File>
+    <File Include="bin/PagedList.Mvc.dll">
+      <publishTime>09/08/2021 14:59:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>09/08/2021 14:59:31</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>09/08/2021 14:59:32</publishTime>
+    </File>
+    <File Include="bin/System.ComponentModel.Annotations.dll">
+      <publishTime>09/08/2021 14:59:32</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>09/08/2021 14:59:32</publishTime>
+    </File>
+    <File Include="bin/System.Memory.dll">
+      <publishTime>09/08/2021 14:59:32</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/System.Numerics.Vectors.dll">
+      <publishTime>09/08/2021 14:59:32</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>09/08/2021 14:59:32</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.Extensions.dll">
+      <publishTime>09/08/2021 14:59:32</publishTime>
+    </File>
+    <File Include="bin/System.ValueTuple.dll">
+      <publishTime>09/08/2021 14:59:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>09/08/2021 14:59:30</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/08/2021 14:59:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Content/PagedList.css">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Content/style.css">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Image/client/banner KTCĐ.png.jpg">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Image/client/banner supper man.jpg">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Image/client/banner Vienvaigay.jpg">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Image/client/BANNER.png.jpg">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Image/client/giaithuong.jpg">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Image/client/modal_bg.png">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Image/client/modal_close.png">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Image/client/tichdiem.jpg">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Image/login.png">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Image/logo_bs.png">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Models/GiaitrivietModel.edmx.diagram">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.js">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.js">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.map">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.js">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.js">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.map">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Account/ConfirmEmail.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginFailure.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPassword.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPasswordConfirmation.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPassword.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPasswordConfirmation.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Account/SendCode.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Account/VerifyCode.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>09/16/2021 15:53:12</publishTime>
+    </File>
+    <File Include="Views/Manage/AddPhoneNumber.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Manage/ChangePassword.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Manage/Index.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Manage/ManageLogins.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Manage/SetPassword.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Manage/VerifyPhoneNumber.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Shared/Lockout.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/08/2021 14:59:29</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/08/2021 15:07:03</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
